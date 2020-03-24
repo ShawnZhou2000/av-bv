@@ -4,7 +4,7 @@
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	background: url(https://s1.ax1x.com/2020/03/24/8O9Ak6.jpg);
+	background: url(https://s1.ax1x.com/2020/03/24/8OCd2D.jpg);
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
@@ -18,7 +18,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background: rgba(25, 25, 25, 0.5);
-	border-radius: 30px;
+	/* border-radius: 30px; */
 	text-align: center;
 }
 
