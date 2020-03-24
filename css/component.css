@@ -1,0 +1,97 @@
+/* Header */
+.large-header {
+	height: 1080px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background: url(../img/demo-1-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.box {
+	width: 100vw;
+	padding: 50px 10px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(25, 25, 25, 0.5);
+	border-radius: 30px;
+	text-align: center;
+}
+
+.box h2, .box p, .box h5{
+	color: white;
+	font-weight: lighter;
+}
+
+.box p {
+	margin-top: 1rem;
+}
+
+.box h5 a{
+	color: #78b9ff;
+}
+
+.box input[type="text"] {
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #5983fc;
+	padding: 14px 10px;
+	width: 65vw;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	font-size: 1.25rem;
+}
+
+.box input[type="text"]:focus {
+	width: 75vw;
+	border-color: #2ecc71;
+}
+
+.btn-change {
+	border: 2px solid #2ecc71 !important;
+}
+
+.btn-change, .btn-jump {
+	border-radius: 24px !important;
+	padding: 12px 40px !important;
+	color: white !important;
+	margin: 10px!important;
+}
+
+.btn-change:hover {
+	background: #2ecc71 !important;
+	box-shadow: 0 0 0 0.2rem rgba(46,204,113,.25)!important;
+}
+
+.btn-jump {
+	border: 2px solid #a163f7 !important;
+	border-radius: 24px !important;
+	padding: 12px 40px !important;
+	color: white !important;
+	margin: 10px!important;
+}
+
+.btn-jump:hover {
+	background: #a163f7 !important;
+	box-shadow: 0 0 0 0.2rem rgba(161,99,247,.25)!important;
+}
+
+.copyright {
+	color: white;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: -8vh;
+	
+}
+
+#info {
+	color: #ff4949;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>bilibili视频编号转换器</title>
+		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./css/component.css">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="js/EasePack.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/TweenLite.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/demo-1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="js/change.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="large-header" class="large-header">
+			<form class="box">
+				<h2>bilibili视频编号转换器</h2>
+				<p>输入时请带上av前缀或bv前缀，不区分大小写</p>
+				<p>支持av号，bv号互相转换</p>
+				<input type="text" id="videoid" placeholder="视频编号" >
+				<input type="text" id="changeid" placeholder="转换结果" >
+				<button type="button" class="btn btn-change btn-lg" onclick="change()">开始转换</button>
+				<button type="button" class="btn btn-jump btn-lg" onclick="jump()">打开此视频页</button>
+				<p id="info"></p>
+				<p>感谢原作者知乎用户mcfx提供的转换算法</p>
+				<h5>
+					<a href="https://www.zhihu.com/question/381784377/answer/1099438784" target="_blank">算法来源</a> 
+					<a href="" target="_blank">开源链接</a>
+				</h5>
+			</form>
+			<canvas id="demo-canvas" width="1920" height="1080"></canvas>
+			<p class="copyright">bilibili视频编号转换器工具<br>Page Designed by @Shawn Zhou 2020.3</p>
+		</div>
+		<script src="./js/TweenLite.min.js"></script>
+		<script src="./js/EasePack.min.js"></script>
+		<script src="./js/demo-1.js"></script>
+	</body>
+</html>
